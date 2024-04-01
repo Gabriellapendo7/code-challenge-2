@@ -1,11 +1,13 @@
 # sol.2
 
-#### Date, 2018/09/14
+#### Date, 2024/31/03
 
-#### By *Hamida Mstafa Mohamed*
+#### By *Gabriella Pendo*
 
 ## Description
 It is a function that accepts two numbers to generate an array between them.
+
+
 ## Installation
 You use git clone to be able to download the documents in the GitHub
 
