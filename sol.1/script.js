@@ -1,12 +1,20 @@
-function swapCase(str) {
-    let newStr = '';
-    for (let i = 0; i < str.length; i++) {
-        if (str[i] === str[i].toLowerCase()) {
-            newStr += str[i].toUpperCase();
+function swapCase(string) {
+    let swapString = '';
+
+    for (let i = 0; i < string.length; i++) {
+        let currentChar = string[i];
+
+        if (currentChar === currentChar.toUpperCase()) {
+            swapString += currentChar.toLowerCase();
         } else {
-            newStr += str[i].toLowerCase();
+            swapString += currentChar.toUpperCase();
         }
     }
-    return newStr;
+    return swapString;
 }
-console.log(swapCase('The Quick Brown Fox'));
+function swapCaseandDisplay(){
+    const inputText=document.getElementById('textInput').value;
+    const swapText = swapCase(inputText);
+    document.getElementById('output').textContent = swapText;
+
+}
