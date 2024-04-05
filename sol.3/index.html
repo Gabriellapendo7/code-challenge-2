@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prime Number </title>
+    <title>Prime Number Finder</title>
+    <script defer src="script.js"></script>
 </head>
-<body>
-    <h1>Prime Number Filter</h1>
-    <label for="numberInput">Enter numbers:</label><br>
-    <input type="text" id="numberInput"><br><br>
-    <button onclick="filterPrimeNumbers()">Filter Prime Numbers</button><br><br>
-    <div id="output"></div>
 
-    <script src="script.js"></script>
+<body>
+    <h1>Prime Number Finder</h1>
+    <div>
+        <label for="numbers">Enter numbers separated by commas:</label>
+        <input type="text" id="numbers" />
+        <button onclick="findPrimes()">Find Primes</button>
+    </div>
+    <div id="result"></div>
+
+
 </body>
+
 </html>
